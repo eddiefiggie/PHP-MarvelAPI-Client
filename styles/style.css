@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background-color: #b45346;
+}
+
+header {
+    background-color: #4682b4;
+    padding: 30px;
+
+}
+
+header nav ul {
+    margin-left: 7.5%;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 35px;
+    font-size: x-large;
+}
+
+header nav ul li a:hover {
+    color: #b45346;
+}
+
+.header-search {
+    text-align: right;
+}
+
+body main {
+    margin: 75px 10%;
+}
+
+.character-summary {
+    background-color: #4682b4;
+    border-color: #4682b4;
+    color: whitesmoke;
+    width: 40%;
+    font-size: larger;
+    text-indent: 14px;
+    padding: 25px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.character-summary h2 {
+    text-align: center;
+    padding: 5px 0 16px 0;
+    font-weight: bolder;
+}
+
+.character-summary p a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.character-summary p a:hover {
+    text-decoration: none;
+    color: #b45346;
+}
+
+.character-appearances {
+    text-align: center;
+}
+
+.character-portrait img {
+    float: right;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+
+.character-attribution {
+    text-align: center;
+}
+
+.character-home {
+    background-color: #4682b4;
+    border-color: #4682b4;
+    color: whitesmoke;
+    width: 40%;
+    font-size: larger;
+    text-indent: 14px;
+    padding: 25px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.character-home h2 {
+    text-align: center;
+    padding: 5px 0 16px 0;
+    font-weight: bolder;
+}
+
+.character-home p a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.character-home-pic img {
+    float: right;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4682b4;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
